@@ -1,0 +1,318 @@
+/*reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+body {
+  font-family: Microsoft YaHei, Arial, "STHeiti", Helvetica, sans-serif;
+  background: #fff;
+  font-size: 14px;
+  height: 100%;
+  max-width: 750px;
+  min-width: 20pc;
+  line-height: 1.5;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+legend {
+  display: none;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.img {
+  width: 100%;
+  height: 5.45333333rem;
+}
+.main-page {
+  padding-top: 1.04rem;
+}
+.main-page div.header-left {
+  margin-left: 0.68rem;
+  margin-right: 0.68rem;
+  border-left: 0.14666667rem solid #eee;
+}
+.main-page div.header-left p {
+  margin-right: 0;
+}
+.main-page p {
+  line-height: 200%;
+}
+.main-page p,
+.main-page h1,
+.main-page h2,
+.main-page h3 {
+  margin-left: 0.68rem;
+  margin-right: 0.68rem;
+}
+.main-page h2 {
+  margin-top: 0.8rem;
+}
+.main-page h1 {
+  font-size: 0.66666667rem;
+  color: #4f4e58;
+  font-weight: bold;
+  padding-left: 0.66666667rem;
+  margin-bottom: 0.4rem;
+}
+.main-page p {
+  margin-bottom: 0.4rem;
+  color: #626262;
+  font-size: 0.37333333rem;
+}
+.main-page p.tip {
+  margin-left: 0.48rem;
+}
+.main-page p.tip span {
+  font-weight: bold;
+  font-style: italic;
+}
+.main-page p.i-tip {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.53333333rem;
+  position: relative;
+}
+.main-page p.i-tip span {
+  background-image: url(../img/icon-douhao.png);
+  background-size: cover ;
+  width: 0.3625rem;
+  height: 0.3rem;
+  position: absolute;
+  top: 0.06666667rem;
+  left: 0.4rem;
+}
+.main-page h2 {
+  font-size: 0.48rem;
+  color: #626262;
+  position: relative;
+  text-indent: 0.73333333rem;
+  text-decoration: underline;
+  margin-bottom: 0.8rem;
+}
+.main-page h2.titlie-tip02{
+	margin-top:0;
+}
+.main-page h2 em.blue-icon {
+  width: 0.2rem;
+  height: 0.42666667rem;
+  display: inline-block;
+  position: absolute;
+  top: 0.13333333rem;
+  left: 0.02666667rem;
+  background: #001C58;
+}
+.main-page p.answer {
+  color: #333;
+  font-size: 0.37333333rem;
+}
+.main-page img.pic-show {
+  width: 10rem;
+  margin: 0.53333333rem 0;
+}
+.main-page img.pic-show01 {
+  height: 6.69333333rem;
+}
+.main-page img.pic-show02 {
+  height: 7.82666667rem;
+}
+.main-page img.pic-show03 {
+  height: 7.50666667rem;
+}
+.main-page img.pic-show04 {
+  height: 5.74666667rem;
+}
+.main-page img.pic-show05 {
+  height: 6.69333333rem;
+}
+.main-page img.pic-show06 {
+  height: 7.02666667rem;
+  margin-bottom: 0;
+}
+.main-page p.tip-answer {
+  font-weight: bold;
+  margin-bottom: 0.46666667rem;
+  font-style: italic;
+}
+.main-page p.tip-answer span.tip-answer-icon {
+  margin-top: 0.24rem;
+  width: 1.26666667rem;
+  height: 0.14666667rem;
+  background: #eee;
+  display: block;
+}
+.main-page span.i-blod {
+  font-weight: bold;
+  font-style: italic;
+}
+.main-page .tip-answer-02 {
+  margin-top: 0.8rem;
+}
+.main-page hr {
+  margin: 0.8rem 0.68rem;
+}
+.main-page h2.last-title {
+  color: #333;
+  font-style: normal;
+}
+.main-page h3.last-title {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #001C58;
+  padding: 0.37333333rem;
+  text-decoration: underline;
+}
+.main-page .pic-text {
+  width: 100%;
+  height: 5.2rem;
+  text-align: center;
+  position: relative;
+}
+.main-page .pic-text img {
+  width: 7.77333333rem;
+  height: 154 / rem;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.main-page p.answer-last01,
+.main-page p.answer-last02,
+.main-page p.answer-last03 {
+  color: #001C58;
+  margin-bottom: 0.8rem;
+}
+.main-page p.answer-last01 span,
+.main-page p.answer-last02 span,
+.main-page p.answer-last03 span {
+  color: #001C58;
+}

@@ -293,7 +293,7 @@ acronym {
 }
 .main-page .pic-text {
   width: 100%;
-  height: 5.2rem;
+  height: 6.6933rem;
   text-align: center;
   position: relative;
 }
@@ -302,8 +302,21 @@ acronym {
   height: 154 / rem;
   position: absolute;
   left: 50%;
-  top: 40%;
-  transform: translate(-50%, -50%);
+  top: 0.8533rem;
+  transform: translate(-50%,0);
+}
+.main-page .pic-text a{
+	width:8.533rem;
+	height:1.12rem;
+	line-height:1.12rem;
+	position:absolute;
+	top:3.92rem;
+	left:50%;
+	transform: translate(-50%,0);
+	background:#001a57;
+	color:#fff;
+	font-size:0.4267rem;
+	text-decoration:none;
 }
 .main-page p.answer-last01,
 .main-page p.answer-last02,
